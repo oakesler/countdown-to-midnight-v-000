@@ -1,6 +1,6 @@
 
 def countdown(integer)
-  counter = integer
+  counter == integer
   while counter < integer 
     puts  "#{counter} SECOND(S)!"
     counter -= 1
@@ -9,7 +9,7 @@ def countdown(integer)
 end
 
 def countdown_with_sleep(integer)
-  counter = integer
+  counter == integer
   while counter < integer
     puts "#{counter} SECOND(S)!"
     counter -= 1 
